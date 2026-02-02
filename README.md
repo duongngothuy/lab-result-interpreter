@@ -2,6 +2,17 @@
 
 A web app that lets you upload a lab report PDF, extracts lab values, flags abnormals, and uses RAG + Claude AI to explain each result in plain English.
 
+## Screenshots
+
+### Landing Page
+![Landing Page](screenshots/landing.png)
+
+### Results Summary
+![Results Summary](screenshots/results-summary.png)
+
+### Detailed Results
+![Detailed Results](screenshots/results-detail.png)
+
 ## Stack
 
 - **Frontend:** Next.js + TypeScript + Tailwind CSS
