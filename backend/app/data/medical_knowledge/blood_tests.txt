@@ -1,0 +1,41 @@
+Common Blood Tests and General Information
+
+Hemoglobin A1c (HbA1c)
+Normal range: <5.7%
+HbA1c measures average blood sugar control over the past 2-3 months. It reflects the percentage of hemoglobin coated with sugar. Normal is below 5.7%, prediabetes is 5.7-6.4%, and diabetes is 6.5% or higher. For people with diabetes, the goal is usually below 7%. Each 1% change in A1c corresponds to roughly a 28-30 mg/dL change in average blood glucose. A1c can be inaccurate in people with certain hemoglobin variants, anemia, or recent blood loss.
+
+Thyroid Stimulating Hormone (TSH)
+Normal range: 0.4-4.0 mIU/L
+TSH is produced by the pituitary gland and stimulates the thyroid. High TSH suggests hypothyroidism (underactive thyroid), which causes fatigue, weight gain, cold intolerance, and dry skin. Low TSH suggests hyperthyroidism (overactive thyroid), which causes weight loss, rapid heartbeat, anxiety, and heat intolerance. TSH is the most sensitive screening test for thyroid disorders.
+
+Free T4 (Thyroxine)
+Normal range: 0.8-1.8 ng/dL
+Free T4 is the active form of the main thyroid hormone. Low free T4 with high TSH confirms hypothyroidism. High free T4 with low TSH confirms hyperthyroidism. Free T4 is more accurate than total T4 because it is not affected by protein binding changes.
+
+Free T3 (Triiodothyronine)
+Normal range: 2.3-4.2 pg/mL
+T3 is the more active thyroid hormone. Free T3 may be elevated in early hyperthyroidism before T4 changes. Low T3 can occur in severe illness (sick euthyroid syndrome) and may not indicate thyroid disease.
+
+Iron
+Normal range: 60-170 ug/dL
+Iron is essential for hemoglobin production and oxygen transport. Low iron causes iron deficiency anemia with symptoms of fatigue, weakness, and pale skin. High iron may indicate hemochromatosis (iron overload), excessive supplementation, or liver disease.
+
+Ferritin
+Normal range: Men: 20-500 ng/mL, Women: 20-200 ng/mL
+Ferritin reflects iron stores in the body. Low ferritin is the earliest indicator of iron deficiency, often dropping before hemoglobin. High ferritin may indicate iron overload, inflammation, liver disease, or infection. Ferritin is also an acute phase reactant that rises with inflammation.
+
+Vitamin D (25-hydroxyvitamin D)
+Normal range: 30-100 ng/mL
+Vitamin D is essential for bone health, immune function, and mood. Deficiency (below 20) is common and can cause bone pain, muscle weakness, and increased fracture risk. Insufficiency (20-29) may benefit from supplementation. Low vitamin D is associated with increased risk of osteoporosis, certain cancers, autoimmune diseases, and depression.
+
+Vitamin B12
+Normal range: 200-900 pg/mL
+Vitamin B12 is essential for nerve function, DNA synthesis, and red blood cell formation. Deficiency can cause megaloblastic anemia, peripheral neuropathy (tingling, numbness), cognitive problems, and mood changes. Common causes of deficiency include vegetarian/vegan diet, pernicious anemia, gastric bypass surgery, and medications (metformin, proton pump inhibitors).
+
+Uric Acid
+Normal range: Men: 3.0-7.0 mg/dL, Women: 2.5-6.0 mg/dL
+Uric acid is a waste product from purine metabolism. High uric acid (hyperuricemia) can cause gout (painful joint inflammation) and kidney stones. Causes include high-purine diet (red meat, organ meats, shellfish), alcohol, obesity, kidney disease, and certain medications.
+
+Magnesium
+Normal range: 1.7-2.2 mg/dL
+Magnesium is important for muscle and nerve function, blood sugar control, and blood pressure regulation. Low magnesium can cause muscle cramps, weakness, irregular heartbeat, and seizures. Common causes include poor diet, alcohol use, diabetes, and certain medications.

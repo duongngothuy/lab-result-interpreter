@@ -1,0 +1,26 @@
+Lipid Panel
+
+The lipid panel measures fats and fatty substances in your blood that are risk factors for cardiovascular disease including heart attack and stroke.
+
+Total Cholesterol
+Normal range: <200 mg/dL (desirable), 200-239 borderline high, 240+ high
+Total cholesterol measures all cholesterol in your blood. It includes HDL, LDL, and VLDL cholesterol. While total cholesterol gives an overview, the individual components (HDL, LDL) are more important for assessing cardiovascular risk. High total cholesterol increases risk of heart disease and stroke.
+
+HDL Cholesterol (High-Density Lipoprotein)
+Normal range: >40 mg/dL (men), >50 mg/dL (women), >60 mg/dL is protective
+HDL is known as "good cholesterol" because it helps remove other forms of cholesterol from your bloodstream. Higher HDL levels are protective against heart disease. Low HDL increases cardiovascular risk. HDL can be improved through regular exercise, healthy fats (olive oil, nuts, fish), moderate alcohol consumption, and not smoking. Very high HDL above 100 mg/dL may not provide additional benefit and in rare cases may indicate a genetic condition.
+
+LDL Cholesterol (Low-Density Lipoprotein)
+Normal range: <100 mg/dL (optimal), 100-129 near optimal, 130-159 borderline high, 160-189 high, 190+ very high
+LDL is known as "bad cholesterol" because it builds up in artery walls forming plaques that narrow arteries (atherosclerosis). High LDL is the primary target for cholesterol treatment. Target levels depend on cardiovascular risk factors. People with diabetes or existing heart disease should aim for LDL below 70. LDL can be lowered through diet (reducing saturated fat, trans fat), exercise, weight loss, and statin medications.
+
+Triglycerides
+Normal range: <150 mg/dL (normal), 150-199 borderline high, 200-499 high, 500+ very high
+Triglycerides are the most common type of fat in the body. High triglycerides increase risk of heart disease and can cause pancreatitis at very high levels (>500). Common causes of high triglycerides include obesity, excessive carbohydrate or alcohol intake, diabetes, hypothyroidism, and certain medications. Triglycerides can be lowered through weight loss, reducing sugar and refined carbohydrate intake, limiting alcohol, regular exercise, and omega-3 fatty acids.
+
+VLDL Cholesterol (Very Low-Density Lipoprotein)
+Normal range: 2-30 mg/dL
+VLDL carries triglycerides in the blood. High VLDL is associated with plaque buildup in arteries. VLDL is usually estimated as triglycerides divided by 5. Elevated VLDL typically mirrors elevated triglycerides.
+
+Cardiovascular Risk Assessment
+The ratio of total cholesterol to HDL is a useful predictor of heart disease risk. A ratio below 5:1 is desirable, and below 3.5:1 is optimal. Non-HDL cholesterol (total cholesterol minus HDL) is another important metric that captures all atherogenic lipoproteins.

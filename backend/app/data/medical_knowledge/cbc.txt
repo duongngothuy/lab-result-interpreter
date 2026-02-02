@@ -1,0 +1,39 @@
+Complete Blood Count (CBC)
+
+The Complete Blood Count is one of the most commonly ordered blood tests. It measures several components of your blood and can help detect a wide range of disorders.
+
+White Blood Cell Count (WBC)
+Normal range: 4.5-11.0 x10^3/uL
+White blood cells are part of your immune system and help fight infections. A high WBC count (leukocytosis) may indicate infection, inflammation, allergic reactions, leukemia, or stress. A low WBC count (leukopenia) may indicate bone marrow problems, autoimmune conditions, severe infections, or effects of chemotherapy. Critically high values above 30.0 may suggest leukemia or severe infection. Critically low values below 2.0 increase risk of serious infections.
+
+Red Blood Cell Count (RBC)
+Normal range: Men: 4.7-6.1 x10^6/uL, Women: 4.2-5.4 x10^6/uL
+Red blood cells carry oxygen throughout your body. A high RBC count (polycythemia) may be caused by dehydration, lung disease, heart disease, or living at high altitudes. A low RBC count may indicate anemia from blood loss, nutritional deficiency (iron, B12, folate), chronic disease, or bone marrow disorders.
+
+Hemoglobin (Hgb)
+Normal range: Men: 13.5-17.5 g/dL, Women: 12.0-16.0 g/dL
+Hemoglobin is the protein in red blood cells that carries oxygen. Low hemoglobin (anemia) causes fatigue, weakness, and shortness of breath. Common causes include iron deficiency, blood loss, chronic disease, and vitamin deficiencies. High hemoglobin may indicate polycythemia vera, dehydration, or chronic lung disease.
+
+Hematocrit (Hct)
+Normal range: Men: 38.3-48.6%, Women: 35.5-44.9%
+Hematocrit measures the percentage of blood volume made up of red blood cells. Low hematocrit indicates anemia. High hematocrit may indicate dehydration or polycythemia.
+
+Platelet Count (Plt)
+Normal range: 150-400 x10^3/uL
+Platelets help your blood clot. Low platelet count (thrombocytopenia) below 150 increases bleeding risk and may be caused by viral infections, medications, autoimmune conditions, or liver disease. Very low counts below 50 are concerning for spontaneous bleeding. High platelet count (thrombocytosis) above 400 may increase clotting risk and can be caused by infection, inflammation, iron deficiency, or bone marrow disorders.
+
+Mean Corpuscular Volume (MCV)
+Normal range: 80-100 fL
+MCV measures the average size of your red blood cells. Low MCV (microcytic) suggests iron deficiency anemia or thalassemia. High MCV (macrocytic) suggests vitamin B12 or folate deficiency, liver disease, or hypothyroidism.
+
+Mean Corpuscular Hemoglobin (MCH)
+Normal range: 27-33 pg
+MCH measures the average amount of hemoglobin per red blood cell. Low MCH often accompanies iron deficiency. High MCH often accompanies B12 or folate deficiency.
+
+Mean Corpuscular Hemoglobin Concentration (MCHC)
+Normal range: 32-36 g/dL
+MCHC measures the average concentration of hemoglobin in red blood cells. Low MCHC indicates hypochromic anemia (pale red blood cells), often from iron deficiency.
+
+Red Cell Distribution Width (RDW)
+Normal range: 11.5-14.5%
+RDW measures the variation in red blood cell size. Elevated RDW indicates mixed-size red blood cells (anisocytosis), which can suggest iron deficiency, B12 deficiency, or mixed anemias.
