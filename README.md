@@ -79,4 +79,4 @@ Then open http://localhost:3000 in your browser.
 
 ## Disclaimer
 
-This tool is for informational purposes only and does not constitute medical advice. Always consult your healthcare provider for interpretation of lab results.
+This tool is a personal project for informational purposes only. It is advised to ask healthcare doctors for more information.
