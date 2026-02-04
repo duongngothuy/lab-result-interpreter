@@ -14,11 +14,19 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# CORS
+# CORS - allow Vercel preview URLs and production
 frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
+allowed_origins = [
+    frontend_url,
+    "http://localhost:3000",
+    "https://lab-result-interpreter.vercel.app",
+    "https://lab-result-interpreter-duongngothuys-projects.vercel.app",
+]
+# Also allow any Vercel preview URL for this project
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[frontend_url],
+    allow_origins=allowed_origins,
+    allow_origin_regex=r"https://lab-result-interpreter.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
