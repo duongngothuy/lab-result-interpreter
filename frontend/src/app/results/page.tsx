@@ -5,7 +5,10 @@ import { useRouter } from "next/navigation";
 import { AnalysisResponse } from "@/lib/api";
 import LabResultCard from "@/components/LabResultCard";
 import ResultsSummary from "@/components/ResultsSummary";
-import { ArrowLeft, Download } from "lucide-react";
+import StatusPieChart from "@/components/StatusPieChart";
+import ResultsBarChart from "@/components/ResultsBarChart";
+import StatisticsSummary from "@/components/StatisticsSummary";
+import { ArrowLeft } from "lucide-react";
 
 export default function ResultsPage() {
   const router = useRouter();
@@ -45,7 +48,7 @@ export default function ResultsPage() {
   });
 
   return (
-    <div className="mx-auto max-w-3xl px-6 py-12">
+    <div className="mx-auto max-w-5xl px-6 py-12">
       <div className="mb-8 flex items-center justify-between">
         <button
           onClick={() => router.push("/upload")}
@@ -57,6 +60,7 @@ export default function ResultsPage() {
         <div className="w-[120px]" />
       </div>
 
+      {/* AI Summary */}
       <ResultsSummary
         summary={data.summary}
         disclaimer={data.disclaimer}
@@ -65,6 +69,30 @@ export default function ResultsPage() {
         criticalCount={criticalCount}
       />
 
+      {/* Data Visualizations */}
+      <div className="mt-8">
+        <h2 className="mb-4 text-lg font-semibold text-slate-800">
+          Data Analysis
+        </h2>
+        <div className="grid gap-4 md:grid-cols-2">
+          <StatusPieChart
+            normalCount={normalCount}
+            abnormalCount={abnormalCount}
+            criticalCount={criticalCount}
+          />
+          <ResultsBarChart results={data.lab_results} />
+        </div>
+      </div>
+
+      {/* Statistics Summary */}
+      <div className="mt-8">
+        <h2 className="mb-4 text-lg font-semibold text-slate-800">
+          Statistical Summary
+        </h2>
+        <StatisticsSummary results={data.lab_results} />
+      </div>
+
+      {/* Detailed Results */}
       <div className="mt-8 space-y-4">
         <h2 className="text-lg font-semibold text-slate-800">
           Detailed Results ({data.lab_results.length} tests)
