@@ -1,23 +1,38 @@
 # Lab Result Interpreter
 
-A web app that lets you upload a lab report PDF, extracts lab values, flags abnormals, and uses RAG + Claude AI to explain each result in plain English.
+A healthcare data extraction and analysis platform that parses lab report PDFs, extracts lab values, flags abnormals, and uses RAG + Claude AI to explain each result in plain English — with interactive data visualizations.
 
 ## Screenshots
+
+### Results Summary with AI Analysis
+![Results Summary](screenshots/results-summary.png)
+
+### Data Visualizations
+![Data Analysis](screenshots/data-analysis.png)
+
+### Statistical Summary by Category
+![Statistical Summary](screenshots/statistical-summary.png)
+
+### Detailed Results with Explanations
+![Detailed Results](screenshots/detailed-results.png)
 
 ### Landing Page
 ![Landing Page](screenshots/landing.png)
 
-### Results Summary
-![Results Summary](screenshots/results-summary.png)
+## Features
 
-### Detailed Results
-![Detailed Results](screenshots/results-detail.png)
+- **PDF Data Extraction** — Parses unstructured lab report PDFs using PyMuPDF and multi-strategy regex pattern matching
+- **Anomaly Detection** — Automatically flags values as Normal, Abnormal, or Critical based on reference ranges
+- **AI Explanations** — Uses RAG (TF-IDF retrieval) + Claude API to generate plain-English explanations
+- **Interactive Visualizations** — Pie charts, deviation bar charts, and statistical dashboards built with Recharts
+- **Category Breakdown** — Groups results by test category (CBC, Metabolic Panel, Lipid Panel, Liver Function, Thyroid)
+- **Results Requiring Attention** — Highlights abnormal and critical values that need follow-up
 
 ## Stack
 
-- **Frontend:** Next.js + TypeScript + Tailwind CSS
+- **Frontend:** Next.js + TypeScript + Tailwind CSS + Recharts
 - **Backend:** Python / FastAPI
-- **RAG:** TF-IDF vector search over curated medical knowledge base
+- **RAG:** TF-IDF vector search (scikit-learn) over curated medical knowledge base
 - **LLM:** Claude API (Anthropic)
 - **Deploy:** Vercel (frontend) + Render (backend)
 
@@ -28,7 +43,7 @@ A web app that lets you upload a lab report PDF, extracts lab values, flags abno
 3. Regex parser identifies lab values (test name, value, unit, reference range)
 4. TF-IDF vector search retrieves relevant medical knowledge for each test
 5. Claude API generates plain-English explanations using the lab values + medical context
-6. Frontend displays results with color-coded Normal/Abnormal/Critical badges
+6. Frontend displays results with visualizations, statistics, and color-coded badges
 
 ## Getting Started
 
@@ -82,12 +97,12 @@ Then open http://localhost:3000 in your browser.
 
 ## Supported Lab Tests
 
-- Complete Blood Count (CBC): WBC, RBC, Hemoglobin, Hematocrit, Platelets, MCV, MCH, MCHC, RDW
-- Basic/Comprehensive Metabolic Panel: Glucose, BUN, Creatinine, Sodium, Potassium, Chloride, CO2, Calcium, Albumin, Bilirubin, ALP, AST, ALT
-- Lipid Panel: Total Cholesterol, HDL, LDL, Triglycerides, VLDL
-- Thyroid: TSH, Free T4, Free T3
-- Other: HbA1c, Iron, Ferritin, Vitamin D, Vitamin B12, Uric Acid, Magnesium
+- **Complete Blood Count (CBC):** WBC, RBC, Hemoglobin, Hematocrit, Platelets, MCV, MCH, MCHC, RDW
+- **Metabolic Panel:** Glucose, BUN, Creatinine, Sodium, Potassium, Chloride, CO2, Calcium, Albumin, Bilirubin, ALP, AST, ALT
+- **Lipid Panel:** Total Cholesterol, HDL, LDL, Triglycerides, VLDL
+- **Thyroid:** TSH, Free T4, Free T3
+- **Other:** HbA1c, Iron, Ferritin, Vitamin D, Vitamin B12, Uric Acid, Magnesium
 
 ## Disclaimer
 
-This tool is a personal project for informational purposes only. It is advised to ask healthcare doctors for more information.
+This tool is a personal project for informational purposes only. Please consult healthcare professionals for medical advice.
